@@ -1,11 +1,7 @@
-import os
-from dotenv import load_dotenv
 from langchain.prompts import PromptTemplate
 from langchain.chat_models import ChatOpenAI
 from langchain.schema.messages import HumanMessage
 from utils.prompts import summarize_prompt
-
-load_dotenv()
 OPENROUTER_API = "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"
 
 llm = ChatOpenAI(

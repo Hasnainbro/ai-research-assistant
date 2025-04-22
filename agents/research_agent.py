@@ -1,9 +1,4 @@
-# --------------------------
-import os
-from dotenv import load_dotenv
 from tavily import TavilyClient
-
-load_dotenv()
 TAVILY_API_KEY = "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"
 
 client = TavilyClient(api_key=TAVILY_API_KEY)
