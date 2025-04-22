@@ -52,7 +52,7 @@ This is a conversational AI assistant that can chat casually **and** provide rea
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/ai-research-assistant.git
+git clone https://github.com/Hasnainbro/ai-research-assistant.git
 cd ai-research-assistant
 ```
 
