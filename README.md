@@ -1,4 +1,3 @@
-
 # Deep Research AI Assistant
 
 This is a conversational AI assistant that can chat casually **and** provide real-time researched answers to user queries using LangGraph, Tavily API, and OpenRouter (Google Gemini). The app has a user-friendly interface built with HTML/CSS and communicates with the Flask backend via a simple `/ask` API.
