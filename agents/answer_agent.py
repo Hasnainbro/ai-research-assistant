@@ -2,12 +2,12 @@ from langchain.prompts import PromptTemplate
 from langchain.chat_models import ChatOpenAI
 from langchain.schema.messages import HumanMessage
 from utils.prompts import summarize_prompt
-OPENROUTER_API = "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"
+OPENROUTER_API = "openrouter-api-here"
 
 llm = ChatOpenAI(
     openai_api_key=OPENROUTER_API,
     base_url="https://openrouter.ai/api/v1",
-    model="google/gemini-2.0-flash-001"
+    model="google/gemini-2.0-flash-001" #change model as the model used here is a paid llm model
 )
 
 def answer_agent(question: str, data: str):
