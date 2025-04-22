@@ -1,5 +1,5 @@
 from tavily import TavilyClient
-TAVILY_API_KEY = "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"
+TAVILY_API_KEY = "tvly-api-hre"
 
 client = TavilyClient(api_key=TAVILY_API_KEY)
 
