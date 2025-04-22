@@ -1,21 +1,21 @@
 
-# 🧠 Deep Research AI Assistant
+# Deep Research AI Assistant
 
 This is a conversational AI assistant that can chat casually **and** provide real-time researched answers to user queries using LangGraph, Tavily API, and OpenRouter (Google Gemini). The app has a user-friendly interface built with HTML/CSS and communicates with the Flask backend via a simple `/ask` API.
 
 ---
 
-## 🚀 Features
+## Features
 
-- 🔍 **Real-time information retrieval** using Tavily search.
-- 🧠 **Answer synthesis** via OpenRouter's Gemini model using LangChain.
-- 💬 **Conversational tone** – responds casually to greetings and seriously to queries.
-- 🌐 **Cross-Origin API support** with Flask-CORS.
-- 🎨 Minimal, clean chat UI with responsive layout.
+-  **Real-time information retrieval** using Tavily search.
+-  **Answer synthesis** via OpenRouter's Gemini model using LangChain.
+-  **Conversational tone** – responds casually to greetings and seriously to queries.
+-  **Cross-Origin API support** with Flask-CORS.
+-  Minimal, clean chat UI with responsive layout.
 
 ---
 
-## 🏗️ Tech Stack
+##  Tech Stack
 
 | Layer       | Technology                      | Description                                 |
 |------------|----------------------------------|---------------------------------------------|
@@ -27,10 +27,10 @@ This is a conversational AI assistant that can chat casually **and** provide rea
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
-📦 your-ai-app/
+ your-ai-app/
 ├── app.py                        # Flask app and API routes
 ├── templates/
 │   └── index.html                # Chat UI
@@ -94,7 +94,7 @@ Then open `http://127.0.0.1:5000/` in your browser 🚀
 
 ---
 
-## 💡 How It Works
+##  How It Works
 
 1. User types a message in the chat UI.
 2. The message is sent to the `/ask` Flask route.
@@ -107,7 +107,7 @@ Then open `http://127.0.0.1:5000/` in your browser 🚀
 
 ---
 
-## 🧪 Example Queries
+##  Example Queries
 
 - "What's the latest news on AI regulation?"
 - "Summarize the top 5 benefits of a plant-based diet."
@@ -115,7 +115,7 @@ Then open `http://127.0.0.1:5000/` in your browser 🚀
 
 ---
 
-## 🧩 Future Improvements
+##  Future Improvements
 
 - Add support for voice input and TTS output.
 - Deploy to Vercel (frontend) and Render (backend) or use Docker.
@@ -123,19 +123,13 @@ Then open `http://127.0.0.1:5000/` in your browser 🚀
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Pull requests are welcome! For major changes, open an issue first to discuss what you'd like to change.
 
 ---
 
-## 📜 License
-
-[MIT](LICENSE)
-
----
-
-## ✨ Credits
+## Credits
 
 - [Tavily](https://www.tavily.com/) for search APIs
 - [OpenRouter](https://openrouter.ai/) for model access
