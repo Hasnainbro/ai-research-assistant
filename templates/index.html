@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AI Crawler Chat</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+    <div id="chat-container">
+      <div id="chat-box">
+        <div class="ai-message">👋 Hi there! Ask me anything and I'll help you out.</div>
+      </div>
+      <div id="loading-indicator" class="typing hidden">AI is thinking...</div>
+      <form id="chat-form">
+        <input type="text" id="user-input" placeholder="Type your message..." autocomplete="off" required />
+        <button type="submit">Send</button>
+      </form>
+    </div>
+    <script src="/static/script.js"></script>
+  </body>
+  
+</html>
